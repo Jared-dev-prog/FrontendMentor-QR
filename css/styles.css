@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardQR {
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.cardQR .cardQR__image img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.cardQR .cardQR__info {
+  padding: 2.5rem;
+}
+.cardQR .cardQR__title {
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.cardQR .cardQR__text {
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+/*# sourceMappingURL=styles.css.map */
